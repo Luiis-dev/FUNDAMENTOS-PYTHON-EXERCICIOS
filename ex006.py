@@ -1,0 +1,37 @@
+n = int(input('Digite um número:  '))
+d = n * 2
+t = n * 3
+r = n ** (1/2)
+print('O dobro de {} vale {}'.format(n, d))
+print('O triplo de {} vale {}. A raiz quadrada de {} é igual a {}.'.format(n, t, n, r))
+
+# COM QUEBRA DE LINHA= \n
+
+n = int(input('Digite um número:  '))
+d = n * 2
+t = n * 3
+r = n ** (1/2)
+print('O dobro de {} vale {}'.format(n, d))
+print('O triplo de {} vale {}. \nA raiz quadrada de {} é igual a {}.'.format(n, t, n, r))
+
+# FORMATAR O NÚMERO DECIMAL= :.?f
+
+n = int(input('Digite um número:  '))
+d = n * 2
+t = n * 3
+r = n ** (1/2)
+print('O dobro de {} vale {}'.format(n, d))
+print('O triplo de {} vale {}. \nA raiz quadrada de {} é igual a {:.2f}.'.format(n, t, n, r))
+
+# OU POSIBILIDADE
+
+n = int(input('Digite um número:  '))
+print('O dobro de {} vale {}'.format(n, (n*2)))
+print('O triplo de {} vale {}. \nA raiz quadrada de {} é igual a {:.2f}.'.format(n, (n*3), n, (n**(1/2))))
+
+# OU POSIBILIDADE USANDOO O pow
+
+n = int(input('Digite um número:  '))
+print('O dobro de {} vale {}'.format(n, (n*2)))
+print('O triplo de {} vale {}. \nA raiz quadrada de {} é igual a {:.2f}.'.format(n, (n*3), n, pow(n, (1/2))))
+
