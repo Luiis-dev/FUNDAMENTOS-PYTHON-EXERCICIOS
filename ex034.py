@@ -1,0 +1,1 @@
+salário = float(input())
