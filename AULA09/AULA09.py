@@ -39,7 +39,6 @@ print(frase[::2])
 print('Oí')
 print('Welcome! Are you completely new to programming?')
 print('f not then we presume you will be looking for information')
-
 Welcome! Are you completely new to programming? If not then we presume you will be
 looking for information about why and how to get started with Python. Fortunately an
 experienced programmer in any programming language (whatever it may be) can pick up
