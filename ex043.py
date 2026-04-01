@@ -12,3 +12,37 @@ elif imc < 40:  # verifica se está com obesidade
     print('Obesidade')  # mostra a classificação
 else:  # caso seja maior ou igual a 40
     print('Obesidade Mórbida')  # mostra a classificação
+
+# EXEMPLO GUSTAVO
+
+peso = float(input('Digite o seu peso: '))
+altura = float(input('Digite sua altura: '))
+imc = peso / (altura ** 2)
+print('O IMC dessa pessoa é de {:.1f}'.format(imc))
+if imc < 18.5:
+    print('Você está ABAIXO DO PESO normal.')
+elif 18.5 <= imc < 25:
+    print('PARABÉNS, você está na faixa de PESO NORMAL.')
+elif 25 <= imc < 30:
+    print('Você está em SOBREPESO.')
+elif 30 <= imc < 40:
+    print('Você está em OBESIDADE!')
+elif imc >= 40:
+    print('Você está em OBESIDADE MÓRBIDA, cuidado!')
+
+# OU
+
+peso = float(input('Digite o seu peso: '))
+altura = float(input('Digite sua altura: '))
+imc = peso / (altura ** 2)
+print('O IMC dessa pessoa é de {:.1f}'.format(imc))
+if imc < 18.5:
+    print('Você está ABAIXO DO PESO normal.')
+elif imc >= 18.5 and imc < 25:
+    print('PARABÉNS, você está na faixa de PESO NORMAL.')
+elif imc >= 18.5 and imc < 30:
+    print('Você está em SOBREPESO.')
+elif imc >= 30 and imc < 40:
+    print('Você está em OBESIDADE!')
+elif imc >= 40:
+    print('Você está em OBESIDADE MÓRBIDA, cuidado!')

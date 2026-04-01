@@ -22,7 +22,7 @@ elif opcao == 3:  # se escolher hexadecimal
 else:  # caso a opção seja inválida
     print('\nOpção inválida!')  # avisa erro de opção
 
-# EXEMPLO GUSTAVA
+# EXEMPLO GUSTAVO
 
 num = int(input('digite um número inteiro: '))
 print('''Escolha uma das bases para conversão:

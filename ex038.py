@@ -7,3 +7,26 @@ elif p1 < p2:  # verifica se o primeiro é menor
     print('{} É menor que {}'.format(p1, p2))  # mostra que p1 é menor
 else:  # caso sejam iguais
     print('Não existe valor, maior, os dois são iguais')  # informa que os dois números são iguais
+
+# EXEMPLO GUSTAVO
+
+n1 = int(input('Primeiro número: '))
+n2 = int(input('Segundo número: '))
+if n1 > n2:
+    print('O PRIMEIRO VALOR É MAIOR')
+elif n2 > n1:
+    print('O SEGUNDO VALOR É MAIOR')
+elif n1 == n2:
+    print('Os dois valores são iguais')
+
+
+# OU
+
+n1 = int(input('Primeiro número: '))
+n2 = int(input('Segundo número: '))
+if n1 > n2:
+    print('O PRIMEIRO VALOR É MAIOR')
+elif n2 > n1:
+    print('O SEGUNDO VALOR É MAIOR')
+else:
+    print('Os dois valores são iguais')

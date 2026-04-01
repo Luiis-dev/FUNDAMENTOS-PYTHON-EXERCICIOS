@@ -10,3 +10,47 @@ elif media < 5:  # verifica se a média é baixa
     print('ESTUDE PRA PASSAR!')  # incentivo para estudar
 else:  # caso a média esteja entre 5 e 5.9
     print('REPROVADO!!')  # informa reprovação
+
+# OU
+
+nota1 = float(input('Digite sua nota: '))
+nota2 = float(input('Digite sua nota: '))
+media = (nota1 + nota2) / 2
+print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(nota1, nota2, media))
+if media >= 5 and media < 7:
+    print('O aluno está em RECUPERAÇÃO.')
+
+# OU
+
+nota1 = float(input('Digite sua nota: '))
+nota2 = float(input('Digite sua nota: '))
+media = (nota1 + nota2) / 2
+print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(nota1, nota2, media))
+if 7 > media >= 5:
+    print('O aluno está em RECUPERAÇÃO.')
+
+# OU
+
+nota1 = float(input('Digite sua nota: '))
+nota2 = float(input('Digite sua nota: '))
+media = (nota1 + nota2) / 2
+print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(nota1, nota2, media))
+if 7 > media >= 5:
+    print('O aluno está em RECUPERAÇÃO.')
+elif media >= 7:
+    print('O aluno está APROVADO.')
+else:
+    print('O aluno está REPROVADO.')
+
+# OU
+
+nota1 = float(input('Digite sua nota: '))
+nota2 = float(input('Digite sua nota: '))
+media = (nota1 + nota2) / 2
+print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(nota1, nota2, media))
+if 7 > media >= 5:
+    print('O aluno está em RECUPERAÇÃO.')
+elif media < 5:
+    print('O aluno está APROVADO.')
+elif media >= 7:
+    print('O aluno está REPROVADO.')
