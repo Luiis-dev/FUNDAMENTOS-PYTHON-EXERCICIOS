@@ -1,14 +1,16 @@
-from datetime import date
-nasc = int(input('Qual o ano de nascimento? '))
-ano = date.today().year
-idade = ano - nasc
-if idade <= 9:
-    print('MIRIM')
-elif idade <= 14:
-    print('INFANTIL')
-elif idade <= 19:
-    print('JÚNIOR')
-elif idade <= 20:
-    print('SÊNIOR')
-else:
-    print('MASTER')
+from datetime import date  # importa a data atual
+
+nasc = int(input('Qual o ano de nascimento? '))  # lê o ano de nascimento
+ano = date.today().year  # pega o ano atual
+idade = ano - nasc  # calcula a idade da pessoa
+
+if idade <= 9:  # verifica se a idade é até 9 anos
+    print('MIRIM')  # categoria mirim
+elif idade <= 14:  # verifica se a idade é até 14 anos
+    print('INFANTIL')  # categoria infantil
+elif idade <= 19:  # verifica se a idade é até 19 anos
+    print('JÚNIOR')  # categoria júnior
+elif idade <= 20:  # verifica se a idade é até 20 anos
+    print('SÊNIOR')  # categoria sênior
+else:  # caso seja maior que 20 anos
+    print('MASTER')  # categoria master

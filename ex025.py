@@ -1,2 +1,2 @@
-nome = str(input('Digite seu nome completo: ')).strip()
-print('Seu nome tem Silva? {}'.format('SILVA' in nome.upper()))
+nome = str(input('Digite seu nome completo: ')).strip()  # lê o nome completo e remove espaços extras
+print('Seu nome tem Silva? {}'.format('SILVA' in nome.upper()))  # verifica se "SILVA" aparece no nome

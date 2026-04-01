@@ -1,8 +1,6 @@
-print('Olá, mundo!')
+print('Olá, mundo!')  # imprime a mensagem na tela
 
 # OU
 
-msg = 'Olá mundo!'
-print(msg)
-
-
+msg = 'Olá mundo!'  # armazena a mensagem em uma variável
+print(msg)  # imprime o conteúdo da variável

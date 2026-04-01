@@ -1,21 +1,21 @@
-n = bool(input('Digite algo: '))
-print(type(n))
+n = bool(input('Digite algo: '))  # converte a entrada para booleano e armazena em n
+print(type(n))  # mostra o tipo da variável
 
 # OU
 
-n = input('Digite algo: ')
-print(n.isnumeric())
+n = input('Digite algo: ')  # lê o que foi digitado como texto
+print(n.isnumeric())  # verifica se o conteúdo é numérico
 
-# se e possivel converter o esse valor em um numero com o tipo primitivo int
+# se é possível converter esse valor em um número com o tipo primitivo int
 # isnumeric()
-# se e numerico
+# verifica se é numérico
 
-n = input('Digite algo: ')
-print(n.isalpha())
+n = input('Digite algo: ')  # lê o que foi digitado como texto
+print(n.isalpha())  # verifica se o conteúdo contém apenas letras
 
-# isalpha se ele é letra
+# isalpha: verifica se é letra
 
-n = input('Digite algo: ')
-print(n.isalnum())
+n = input('Digite algo: ')  # lê o que foi digitado como texto
+print(n.isalnum())  # verifica se o conteúdo é alfanumérico
 
-# isalnum = alfabeto e numero
+# isalnum = letras e números

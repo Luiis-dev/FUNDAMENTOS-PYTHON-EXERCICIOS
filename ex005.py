@@ -1,10 +1,10 @@
-n = int(input('Digite um numero: '))
-a = n - 1
-s = n + 1
-print('Analisando o valor {}, seu antecessor é {} e o sucessor é {}'.format(n, a, s))
+n = int(input('Digite um numero: '))  # lê um número inteiro informado pelo usuário
+a = n - 1  # calcula o antecessor
+s = n + 1  # calcula o sucessor
+print('Analisando o valor {}, seu antecessor é {} e o sucessor é {}'.format(n, a, s))  # mostra o resultado
 
-# SE EU PRECISAR DO ANTECESSOR E SUCESSOR MAIS PARA FRENTE O IDEAL E GUARDAR EM UM VARIÁVEL
-# SE FOR PARA MOSTRAR E PRONTO TEM ESSE.
+# SE EU PRECISAR DO ANTECESSOR E SUCESSOR MAIS PARA FRENTE O IDEAL É GUARDAR EM UMA VARIÁVEL
+# SE FOR PARA MOSTRAR E PRONTO, PODE USAR ASSIM.
 
-n = int(input('Digite um numero: '))
-print('Analisando o valor {}, seu antecessor é {} e o sucessor é {}'.format(n, (n-1), (n+1)))
+n = int(input('Digite um numero: '))  # lê um número inteiro informado pelo usuário
+print('Analisando o valor {}, seu antecessor é {} e o sucessor é {}'.format(n, (n-1), (n+1)))  # calcula direto na saída
